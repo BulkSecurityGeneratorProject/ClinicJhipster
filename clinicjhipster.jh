@@ -1,0 +1,18 @@
+entity Patient {
+	firstName String,
+    lastName String,
+    birthDate Instant,
+    phoneNumber String,
+    address String
+}
+
+entity HealthChart {
+	height Float,
+    weight Float,
+	diagnosis String,
+    treatment String
+}
+
+relationship OneToMany {
+	Patient to HealthChart
+}

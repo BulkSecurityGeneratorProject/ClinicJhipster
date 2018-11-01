@@ -1,0 +1,38 @@
+{
+    "name": "HealthChart",
+    "fields": [
+        {
+            "fieldName": "height",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "weight",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "diagnosis",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "treatment",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "patient",
+            "otherEntityName": "patient",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181101145525",
+    "entityTableName": "health_chart",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
