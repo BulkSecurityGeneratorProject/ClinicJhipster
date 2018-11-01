@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "ClinicJhipster",
+    "packageName": "io.github.jhipster.application",
+    "packageFolder": "io/github/jhipster/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "MzBjMDA1NzMwZDZmNTgyZWNkZTFiYjY2ZjZjZjhjYjdjMjI0NTIwNzU3NTlhMWM1OWQ5YzBhMzc5NDllN2UzZTAxODA4Y2UzZjU0ZmEzOWRkOTM2MmJiY2U3ZmE0YWFjMDE5OTBiZmY3ZDZmY2I4ODU3NWVkZmFlMmEyODU4NjY="
+  },
+  "git-provider": "GitHub",
+  "git-company": "WaelOsmaniDev",
+  "repository-name": "ClinicJhipster"
+}
